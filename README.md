@@ -53,7 +53,7 @@ reference [2] above.
 ## Other Software Used
 
 The following matlab packages have been adapted for this package and 
-are in the ```@kde``` and ```GA`` sub-directory respectively:
+are in the ```@kde``` and ```GA``` sub-directory respectively:
 
 GA - Alan de Freitas, Open Genetic Algorithm Toolbox, 2012.
 Creative Commons Attribution Non-Commercial License V2.0
