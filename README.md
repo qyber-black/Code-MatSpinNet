@@ -65,9 +65,10 @@ https://www.ics.uci.edu/~ihler/code/kde.html
 
 ## License - AGPL v3.0
 
-Copyright (C) 2011-2019 Frank C Langbein, Cardiff University
-Copyright (C) 2011-2019 Sophie G Shermer, Swansea University
-Copyright (C) 2011-2019 Edmond Jonckheere, USC
+Copyright (C) 2011-2019
+Frank C Langbein, Cardiff University;
+Sophie G Shermer, Swansea University;
+Edmond Jonckheere, USC.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
