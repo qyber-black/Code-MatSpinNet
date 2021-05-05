@@ -63,6 +63,16 @@ https://sourceforge.net/projects/gatoolbox/
 GNU Lesser General Public License V2.1
 https://www.ics.uci.edu/~ihler/code/kde.html
 
+## Locations
+
+The code is developed and maintained on [qyber\\black](https://qyber.black)
+at https://qyber.black/spinnet/code-matspinnet
+
+This code is mirrored at
+* https://github.com/xis10z/Code-MatSpinNet
+
+The mirrors are only for convenience, accessibility and backup.
+
 ## People
 
 * [Frank C Langbein](https://qyber.black/xis10z), [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science), [Cardiff University](https://www.cardiff.ac.uk/); [langbein.org](https://langbein.org/)
