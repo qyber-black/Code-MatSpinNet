@@ -79,6 +79,10 @@ The mirrors are only for convenience, accessibility and backup.
 * [Sophie M Shermer](https://qyber.black/lw1660), [Physics](https://www.swansea.ac.uk/physics), [Swansea University](https://www.swansea.ac.uk/)
 * [Edmond Jonckheere](https://qyber.black/edmond), [Ming Hsieh Department of Electrical and Computer Engineering](https://minghsiehece.usc.edu/), [University of Southern California](http://www.usc.edu/)
 
+## Contact
+
+For any general enquiries relating to this project, [send an e-mail](mailto:gitlab+spinnet-code-matspinnet-25-issue-@qyber.black).
+
 ## Citation
 
 FC Langbein, SM Shermer, EA Jonckheere. **MatSpinNet**. Version 1.0. _FigShare_, Software. November 2019.
