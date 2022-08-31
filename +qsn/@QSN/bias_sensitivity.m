@@ -33,7 +33,7 @@ function [dpdd,M,lambda] = bias_sensitivity(obj,results,info,Smu)
   elseif ismatrix(Smu) && size(Smu,1) == size(Smu,2) && size(Smu,1) == obj.N
     Smu = { Smu };
   elseif isinteger(Smu) && Smu > 0 && Smu <= 2*obj.N
-    Smu{1} = GetSmu(obj.N,Smu);
+    Smu = { GetSmu(obj.N,Smu) };
   else
     error('Smu not recognised');
   end
