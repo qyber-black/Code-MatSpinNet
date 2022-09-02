@@ -69,7 +69,7 @@ The code is developed and maintained on [qyber\\black](https://qyber.black)
 at https://qyber.black/spinnet/code-matspinnet
 
 This code is mirrored at
-* https://github.com/xis10z/Code-MatSpinNet
+* https://github.com/qyber-black/Code-MatSpinNet
 
 The mirrors are only for convenience, accessibility and backup.
 
@@ -88,11 +88,11 @@ For any general enquiries relating to this project, [send an e-mail](mailto:gitl
 FC Langbein, SM Shermer, EA Jonckheere. **MatSpinNet**. Version 1.0. _FigShare_, Software. November 2019.
 [[DOI:10.6084/m9.figshare.10315814.v1]](https://doi.org/10.6084/m9.figshare.10315814.v1)
 [[DEV:https://qyber.black/spinnet/code-matspinnet]](https://qyber.black/spinnet/code-matspinnet)
-[[MIRROR:https://github.com/xis10z/Code-MatSpinNet]](https://github.com/xis10z/Code-MatSpinNet)
+[[MIRROR:https://github.com/qyber-black/Code-MatSpinNet]](https://github.com/qyber-black/Code-MatSpinNet)
 
 ## License - AGPL v3.0
 
-Copyright (C) 2011-2019
+Copyright (C) 2011-2019, 2022
 Frank C Langbein, Cardiff University;
 Sophie G Shermer, Swansea University;
 Edmond Jonckheere, USC.
