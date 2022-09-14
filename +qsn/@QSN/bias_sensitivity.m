@@ -25,11 +25,11 @@ function [dpdd,M,lambda] = bias_sensitivity(obj,results,info,Smu)
   % lambda : the eigenvalues of the Hamiltonian for all results
 
   if ~exist('Smu', 'var') || strcmp(Smu,'all') || isempty(Smu)
-    Smu = arrayfun(@(mu) GetSmu(obj.N,mu), [1:2*obj.N], 'UniformOutput', false);
+    Smu = arrayfun(@(mu) GetSmu(obj.N,mu), 1:2*obj.N, 'UniformOutput', false);
   elseif strcmp(Smu, 'couplings')
-    Smu = arrayfun(@(mu) GetSmu(obj.N,mu), [obj.N+1:2*obj.N], 'UniformOutput', false);
+    Smu = arrayfun(@(mu) GetSmu(obj.N,mu), obj.N+1:2*obj.N, 'UniformOutput', false);
   elseif strcmp(Smu, 'biases')
-    Smu = arrayfun(@(mu) GetSmu(obj.N,mu), [1:obj.N], 'UniformOutput', false);
+    Smu = arrayfun(@(mu) GetSmu(obj.N,mu), 1:obj.N, 'UniformOutput', false);
   elseif ismatrix(Smu) && size(Smu,1) == size(Smu,2) && size(Smu,1) == obj.N
     Smu = { Smu };
   elseif isinteger(Smu) && Smu > 0 && Smu <= 2*obj.N
