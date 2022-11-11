@@ -60,7 +60,8 @@ function  heatmaptext(data,varargin)
             cBar = pval;
           case 3
             clim = pval;
-          vsdr 4
+%          vsdr 4
+          case 4
             cmssp = pval;
         end
       end

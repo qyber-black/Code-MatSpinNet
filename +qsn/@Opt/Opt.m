@@ -130,9 +130,10 @@ classdef (Sealed = true) Opt < handle
             problem.solver      = 'fminsearch';
           case 'fmin'
             problem.solver      = 'fminunc';
-            opts                = optimoptions('fmincon');
+            opts                = optimoptions('fminunc');
+%            opts                = optimoptions('fmincon');
             opts.Algorithm      = 'quasi-newton';
-            opts.LargeScale     = 'off';
+%            opts.LargeScale     = 'off';
             opts.GradObj        = 'off';
           case 'fmingrad'
             problem.solver      = 'fminunc';
