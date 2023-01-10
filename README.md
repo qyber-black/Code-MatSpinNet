@@ -1,4 +1,4 @@
-# MatSpinNet V1.0.1
+# MatSpinNet V1.1
 
 > SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University\
 > SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University\
@@ -93,6 +93,6 @@ For any general enquiries relating to this project, [send an e-mail](mailto:gitl
 ## Citation
 
 FC Langbein, SM Shermer, Sean P O'Neil, EA Jonckheere. **MatSpinNet**. Version 1.0.1 _FigShare_, Software. December 2022.
-[[DOI:10.6084/m9.figshare.10315814]](https://doi.org/10.6084/m9.figshare.10315814)
+[[DOI:10.6084/m9.figshare.21856911]](https://doi.org/10.6084/m9.figshare.21856911)
 [[DEV:https://qyber.black/spinnet/code-matspinnet]](https://qyber.black/spinnet/code-matspinnet)
 [[MIRROR:https://github.com/qyber-black/Code-MatSpinNet]](https://github.com/qyber-black/Code-MatSpinNet)
