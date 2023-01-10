@@ -16,7 +16,11 @@ classdef (Sealed = true) Id < handle
   %   obj = Id (s, range, s_d)     - C'tor
   %   [para,err,data] = obj.find (s, Time, Exp_N, Exp_R, MaxIt)
   %                                - Find ring Hamiltonian by iterative refinement
-  %
+  
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   properties (SetAccess = private)
     S          = 'undef';    % Spin network for identification
     Range      = 'undef';    % Parameter range

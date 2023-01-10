@@ -24,6 +24,10 @@ function value = halham_leap_check ( dim_num, leap )
 %
 %    Output, logical VALUE, is true if LEAP is legal.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   if ( any ( leap(1:dim_num) < 1 ) )
     fprintf ( 1, '\n' );
     fprintf ( 1, 'HALHAM_LEAP_CHECK - Fatal error!\n' );

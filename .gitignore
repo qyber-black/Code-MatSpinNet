@@ -1,3 +1,7 @@
+# .gitignore
+#
+# SPDX-FileCopyrightText: Copyright (C) 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+# SPDX-License-Identifier: AGPL-3.0-or-later
 *.mat
 *.mexa64
 *.dll

@@ -40,6 +40,10 @@ function [ pc_deg, pc ] = plymul2 ( add, mul, pa_deg, pa, pb_deg, pb )
 %
 %    Output, integer PC(PC_DEG+1), the product polynomial, C = A * B mod 2.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2003
+% SPDX-License-Identifier: LGPL-3.0-only
+
   if ( pa_deg == -1 | pb_deg == -1 )
     pc_deg = -1;
   else

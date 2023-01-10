@@ -24,6 +24,11 @@ function [dpdd,M,lambda] = bias_sensitivity_alt(obj,results,Smu)
   % M      : the "sign divided difference matrix" for all results
   % lambda : the eigenvalues of the Hamiltonian for all results
 
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-FileCopyrightText: Copyright (C) 2022 Sean Patrick O'Neil <seanonei@usc.edu>, US Army
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   if ~exist('Smu', 'var') || strcmp(Smu,'all') || isempty(Smu)
     Smu = arrayfun(@(mu) GetSmu(obj.N,mu), 1:2*obj.N, 'UniformOutput', false);
   elseif strcmp(Smu, 'couplings')

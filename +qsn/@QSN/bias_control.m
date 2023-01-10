@@ -20,6 +20,11 @@ function [Results,best,fastest,FailedRuns,info] = bias_control(obj,in,out,T,B,re
   % noise      Add level of noise to initial values
   % v          Verbose?
 
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-FileCopyrightText: Copyright (C) 2022 Sean Patrick O'Neil <seanonei@usc.edu>, US Army
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   % Verbose by default
   if ~exist('v','var')
     v = 1;

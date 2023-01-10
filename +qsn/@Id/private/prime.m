@@ -43,6 +43,10 @@ function p = prime ( n )
 %    Output, integer P, the N-th prime.  If N is out of range, P
 %    is returned as -1.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2005
+% SPDX-License-Identifier: LGPL-3.0-only
+
   prime_max = 1600;
 
   prime_vector(1:1600) = [

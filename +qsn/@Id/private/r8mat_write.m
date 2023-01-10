@@ -34,6 +34,10 @@ function r8mat_write ( output_filename, m, n, table )
 %
 %  Open the file.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2009
+% SPDX-License-Identifier: LGPL-3.0-only
+
   output_unit = fopen ( output_filename, 'wt' );
 
   if ( output_unit < 0 ) 

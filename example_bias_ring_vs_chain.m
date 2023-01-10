@@ -5,6 +5,10 @@ function example_time_ring_chain
   % chain of length k, for k=1:ceil(N/2) vs 1-k transition in B-quenched
   % N-ring up to maximum time.
 
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 SM Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   N = 13;
   Tmax = 30;
   B = 10;

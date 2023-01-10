@@ -22,6 +22,10 @@ function value = halham_dim_num_check ( dim_num )
 %
 %    Output, logical VALUE, is true if DIM_NUM is legal.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2005
+% SPDX-License-Identifier: LGPL-3.0-only
+
   if ( dim_num < 1 )
     fprintf ( 1, '\n' );
     fprintf ( 1, 'HALHAM_DIM_NUM_SET - Fatal error!\n' );

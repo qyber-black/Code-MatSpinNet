@@ -32,6 +32,9 @@ function  heatmaptext(data,varargin)
   %   Copyright 2007 The MathWorks, Inc.
   %   $Revision: 1.1 $  $Date: 2007/08/08 21:56:22 $
 
+  % SPDX-FileCopyrightText: Copyright 2007 The MathWorks, Inc.
+  % SPDX-License-Identifier: LicenseRef-MATHWORKS-2016
+
   precision = 2;
   cBar = true;
   clim = NaN;
@@ -60,7 +63,6 @@ function  heatmaptext(data,varargin)
             cBar = pval;
           case 3
             clim = pval;
-%          vsdr 4
           case 4
             cmssp = pval;
         end

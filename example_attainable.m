@@ -2,8 +2,12 @@ function [x,p,q,theta,OK,err,info] = example_attainable()
   % QSN package example
   %
   % Attainability
-
   % Biased ring for 1-5 transition
+
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 SM Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   N = 13;
   target = 6;
   B = zeros(1,N);

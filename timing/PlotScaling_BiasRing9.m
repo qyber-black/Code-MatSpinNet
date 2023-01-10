@@ -15,6 +15,11 @@ function PlotScaling_BiasRing9(ring9)
 %
 % This version only works for ring9 at the moment.
 
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 SM Shermer <lw1660@gmail.com>, Swansea University
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019 Edmond Jonckheere, University of Southern California
+% SPDX-License-Identifier: AGPL-3.0-or-later
+
 function e = GetFidError(y,m,n)
     e = 1-cellfun(@(x)x(m,n),y);
 end

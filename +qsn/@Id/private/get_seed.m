@@ -20,6 +20,10 @@ function seed = get_seed ( )
 %
 %    Output, integer SEED, a random seed value.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   I4_MAX = 2147483647;
 
   time_array = clock;

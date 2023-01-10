@@ -3,6 +3,9 @@ function plotKDE (KDE, varargin)
 %   KDE      - KDE
 %   varargin - if set to 1, plot 3D contour, 2 plot mesh, other nothing
 
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019 Frank C Langbein <frank@langbein.org>, Cardiff University
+% SPDX-License-Identifier: AGPL-3.0-or-later
+
 if size(varargin, 2) == 1
   mode = varargin{1};
 else

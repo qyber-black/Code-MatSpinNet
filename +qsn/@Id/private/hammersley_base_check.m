@@ -23,6 +23,10 @@ function value = hammersley_base_check ( dim_num, base )
 %
 %    Output, logical VALUE, is true if BASE is legal.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   if ( any ( base(1:dim_num) == 0 ) | any ( base(1:dim_num) == 1 ) )
     fprintf ( 1, '\n' );
     fprintf ( 1, 'HAMMERSLEY_BASE_CHECK - Fatal error!\n' );

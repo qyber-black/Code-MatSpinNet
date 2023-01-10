@@ -15,6 +15,10 @@ function create_uniform_1d (obj, ring, in)
   %   obj    - Quantum spin network object
   %
 
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   % Check arguments
   if size(in,3) > 3
     error ('Too many parameters for uniform 1D spin network');

@@ -59,6 +59,10 @@ function r = i4_to_hammersley_sequence(dim_num, n, step, seed, leap, base)
   %    ACM Transactions on Mathematical Software,
   %    Volume 23, Number 2, 1997, pages 266-294.
 
+  % SPDX-FileCopyrightText: John Burkardt, 2004
+  % SPDX-FileCopyrightText: Copyright (C) 2015 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-License-Identifier: LGPL-3.0-only
+
   persistent prime_vector;
 
   dim_num = floor(dim_num);

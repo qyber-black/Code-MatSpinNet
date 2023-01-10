@@ -22,6 +22,10 @@ function hammersley_leap_set ( leap )
 %    Each entry should be 1 or greater.  Only the integer
 %    part of a base is used.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2005
+% SPDX-License-Identifier: LGPL-3.0-only
+
   global hammersley_LEAP
   global hammersley_DIM_NUM
 

@@ -20,6 +20,10 @@ function base = hammersley_base_get ( )
 %
 %    Output, integer BASE(1:DIM_NUM), the Hammersley bases. 
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2005
+% SPDX-License-Identifier: LGPL-3.0-only
+
   global hammersley_BASE
   global hammersley_LEAP
   global hammersley_DIM_NUM

@@ -22,6 +22,10 @@ function len = s_len_trim ( s )
 %
 %    Output, integer LENGTH, the length of the string up to the last nonblank.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2003
+% SPDX-License-Identifier: LGPL-3.0-only
+
   len = length ( s );
 
   while ( 0 < len )

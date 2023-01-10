@@ -1,0 +1,12 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: MRSNet
+Upstream-Contact: Frank Langbein <frank@langbein.org>
+Source: https://qyber.black/spinnet/code-matspinnet
+
+Files: @kde/*
+Copyright: Copyright (C) 2003  Alexander Ihler
+License: LGPL-2.1-or-later
+
+Files: GA/*
+Copyright: Alan de Freitas, 2012
+License: CC-BY-NC-2.0

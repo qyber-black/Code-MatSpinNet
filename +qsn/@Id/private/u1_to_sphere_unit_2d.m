@@ -22,6 +22,10 @@ function x = u1_to_sphere_unit_2d ( u )
 %
 %    Output, real X(2), the corresponding point on the circle.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   angle = 2.0 * pi * u(1);
 
   x(1) = cos ( angle );

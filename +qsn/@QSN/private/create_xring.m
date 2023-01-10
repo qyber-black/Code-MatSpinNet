@@ -1,4 +1,4 @@
-function create_xring (obj, in)
+function create_xring (obj, in) 
   % create_xring (obj, in) - Create an xring spin network
   %
   % Construct a physically uniform quantum spin network ring with chain
@@ -14,6 +14,10 @@ function create_xring (obj, in)
   %                    for engineered xring networks
   %   obj    - Quantum spin network object
   %
+
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
 
   % Check arguments
   if size(in,2) < 3 || size(in,2) > 5

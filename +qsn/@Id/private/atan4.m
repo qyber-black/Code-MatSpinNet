@@ -41,6 +41,9 @@ function value = atan4 ( y, x )
 %    of its cosine and sine match those of X and Y.
 %
 
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
 %
 %  Special cases:
 %

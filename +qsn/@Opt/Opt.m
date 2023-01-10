@@ -11,7 +11,12 @@ classdef (Sealed = true) Opt < handle
   %   obj = Opt (e, opt)                    - Optimiser c'tor
   %   [x,err,exec_time,exit_flag,output] = obj . solve (eval_func, x0)
   %                                         - Solve problem
-  %
+
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-FileCopyrightText: Copyright (C) 2022 Sean P O'Neil, US Army
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   properties (SetAccess = private)
     alg       = 'undef';                % Optimisation procedure
     tol       = double(eps('single'));  % Tolerance
@@ -137,7 +142,8 @@ classdef (Sealed = true) Opt < handle
             opts.GradObj        = 'off';
           case 'fmingrad'
             problem.solver      = 'fminunc';
-            opts                = optimoptions('fmincon');
+            opts                = optimoptions('fminunc');
+%            opts                = optimoptions('fmincon');
             opts.Algorithm      = 'active-set';
             opts.GradObj        = 'on';
           case 'ga'

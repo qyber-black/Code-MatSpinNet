@@ -70,6 +70,10 @@ function r = i4_to_hammersley_sequence ( dim_num, n, step, seed, leap, base )
 %    Output, real R(DIM_NUM,N), the next N elements of the
 %    leaped subsequence, beginning with element STEP.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2008
+% SPDX-License-Identifier: LGPL-3.0-only
+
   fiddle = 0;
   dim_num = floor ( dim_num );
   n = floor ( n );

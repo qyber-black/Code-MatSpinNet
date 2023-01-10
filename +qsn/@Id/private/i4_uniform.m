@@ -60,6 +60,10 @@ function [ c, seed ] = i4_uniform ( a, b, seed )
 %
 %    Output, integer SEED, the updated seed.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2006
+% SPDX-License-Identifier: LGPL-3.0-only
+
   i4_huge = 2147483647;
 
   if ( seed == 0 )

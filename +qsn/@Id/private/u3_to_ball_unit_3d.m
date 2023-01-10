@@ -23,6 +23,9 @@ function x = u3_to_ball_unit_3d ( u )
 %    Output, real X(3), the corresponding point in the unit ball.
 %
 
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
 %
 %  Pick a uniformly random VDOT, which must be between -1 and 1.
 %  This represents the dot product of the random vector with the Z unit vector.

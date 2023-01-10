@@ -21,6 +21,10 @@ function hammersley_seed_set ( seed )
 %    Input, integer SEED(1:DIM_NUM), the seed of the leaped Hammersley subsequence.  
 %    Each base should be greater than 1.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2005
+% SPDX-License-Identifier: LGPL-3.0-only
+
   global hammersley_BASE
   global hammersley_LEAP
   global hammersley_DIM_NUM

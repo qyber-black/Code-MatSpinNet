@@ -16,6 +16,11 @@ classdef (Sealed = true) Control < handle
   %   [x,err,exec_time,exit_flag,output,x0] = obj.solve_static (opt, x0)
   %                                       - solve problem by static controls
   %
+
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   properties (SetAccess = private)
     system    = 'undef';                   % QSN object
     problem   = struct ('type', 'undef');  % Control problem description
@@ -144,7 +149,7 @@ classdef (Sealed = true) Control < handle
         N = length(E);
         L = ones(N,1)*E.'-E*ones(1,N);
         W = (out'*V).*(V'*in)';
-        pp = 1-real(W*(exp(1i*L*T).*sinc(L*obj.problem.dt/2))*W');
+        pp = 1-real(W*(exp(1i*L*T).*sinc(L*obj.problem.dt/(2*pi)))*W');
         prob = prob + pp;
         ppp(rep) = pp;
       end
@@ -423,7 +428,7 @@ classdef (Sealed = true) Control < handle
       N = length(E);
       L = ones(N,1)*E.'-E*ones(1,N);
       W = (out'*V).*(V'*in)';
-      prob = 1-real(W*(exp(1i*L*T).*sinc(L*obj.problem.dt/2))*W');
+      prob = 1-real(W*(exp(1i*L*T).*sinc(L*obj.problem.dt/(2*pi)))*W');
       err = prob;
       grad = [];
     end
@@ -461,7 +466,7 @@ classdef (Sealed = true) Control < handle
         N = length(E);
         L = ones(N,1)*E.'-E*ones(1,N);
         W = (out'*V).*(V'*in)';
-        pp = 1-real(W*(exp(1i*L*T).*sinc(L*obj.problem.dt/2))*W');
+        pp = 1-real(W*(exp(1i*L*T).*sinc(L*obj.problem.dt/(2*pi)))*W');
         prob = prob + pp;
       end
       prob = prob / obj.problem.samples;

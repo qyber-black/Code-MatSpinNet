@@ -1,6 +1,10 @@
 function [best,fastest,Results,FailedRuns] = example_bias_hes()
   % Static bias control for information transfer in higher excitation subspaces.
   % in N-ring.
+  
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 SM Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
 
   N   = 7;               % Size
   ring = false;          % Ring?

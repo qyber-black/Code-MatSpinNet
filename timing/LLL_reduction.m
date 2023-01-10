@@ -7,8 +7,15 @@ function A = LLL_reduction(A,delta)
   %   delta  - delta parameter (if omitted defaults to 0.75)
   %   A      - (output) square matrix whose columnes are the LLL-reduce basis
   %
-  % Matlab implementation by K. Shum
+  % Matlab implementation based on
+  % A Study of Lattice Reduction Detection Techniques for LTE Systems, Master's Thesis by Liping Wang, Lund University, 2016,
+  % https://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=8873221&fileOId=8873252
+  % based on original work by K. Shum
   %
+  % SPDX-FileCopyrightText: No Copyright
+  % SPDX-License-Identifier: LicenseRef-PDM-1.0
+  % LicenseConcluded: LicenseRef-PDM-1.0
+  
 
   if nargin == 1
     delta = .75; % the default value of the parameter delta

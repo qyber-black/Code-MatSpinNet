@@ -6,6 +6,10 @@ function [Best_X,Best_T,Fastest_X,Fastest_T] = example_bias_control()
   % constraint (B ~= NaN). Controls can be arbitrary or symmetric w.r.t.
   % smmetry axis between 1-target.
 
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 SM Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   N = 11;              % Ring size
   xring_length = 0;    % Extend each spin in ring by xring_length chain (or 0 for ring only)
   ring_target = 5;     % 1 to target transition (in ring!)

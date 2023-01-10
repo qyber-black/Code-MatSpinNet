@@ -7,7 +7,10 @@ function [x,p,q,theta,OK,err,info] = find_attainable (obj,ispin,jspin,s)
   %
   % returns that the probability from ispin to jspin in a ring is attainable given a
   % scalar scaling parameter s.
-  %
+
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
 
   % Call is_attainable to find dimension for x
   p = obj.is_attainable(ispin,jspin,1);

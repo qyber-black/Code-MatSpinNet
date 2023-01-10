@@ -47,6 +47,9 @@ function freezeColors(varargin)
 %   John Iversen (iversen@nsi.edu) 3/23/05
 %
 
+% SPDX-FileCopyrightText: John Iversen, 2005
+% SPDX-License-Identifier: LicenseRef-JI
+
 %   Changes:
 %   JRI (iversen@nsi.edu) 4/19/06   Correctly handles scaled integer cdata
 %   JRI 9/1/06   should now handle all objects with cdata: images, surfaces,

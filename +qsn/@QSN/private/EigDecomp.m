@@ -8,6 +8,10 @@ function [P,e] = EigDecomp(obj)
 % output: P   -- {P1,P_2,...} list of projectors
 %         e   -- [e1,e2,....] vector of eigenvalues
 
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University\
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University\
+% SPDX-License-Identifier: AGPL-3.0-or-later
+
 N = obj.N;
 % compute eigendecomposition
 [V,E] = eig(obj.H);

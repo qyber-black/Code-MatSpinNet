@@ -3,9 +3,13 @@ function [Time,Prob,Err] = example_bias_vs_time()
   %
   % Time for max. probability given bias for ring
 
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 SM Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   N = 13;                  % Ring size
   B = [0 10.^[1:6]];       % Bias range
-  Tmax = 100000;            % Max time
+  Tmax = 100000;           % Max time
   Tstep = 0.001;           % Time step
   Trange = 100;            % Length of interval for step-wise check until Tmax
   target = 6;              % Target

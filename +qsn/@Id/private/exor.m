@@ -31,6 +31,10 @@ function k = exor ( i, j )
 %
 %    Output, integer K, the exclusive OR of I and J.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2003
+% SPDX-License-Identifier: LGPL-3.0-only
+
   k = 0;
   l = 1;
 

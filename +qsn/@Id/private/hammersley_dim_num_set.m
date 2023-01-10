@@ -20,6 +20,10 @@ function hammersley_dim_num_set ( dim_num )
 %
 %    Input, integer DIM_NUM, the new value for the dimension.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2005
+% SPDX-License-Identifier: LGPL-3.0-only
+
   global hammersley_DIM_NUM
 
   dim_num = floor ( dim_num );

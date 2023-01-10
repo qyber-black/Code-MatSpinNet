@@ -25,6 +25,10 @@ function value = halham_seed_check ( dim_num, seed )
 %
 %    Output, logical VALUE, is true if SEED is legal.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   if ( any ( seed(1:dim_num) < 0 ) )
     fprintf ( 1, '\n' );
     fprintf ( 1, 'HALHAM_SEED_CHECK - Fatal error!\n' );
