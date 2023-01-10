@@ -92,7 +92,7 @@ For any general enquiries relating to this project, [send an e-mail](mailto:gitl
 
 ## Citation
 
-FC Langbein, SM Shermer, Sean P O'Neil, EA Jonckheere. **MatSpinNet**. Version 1.0.1 _FigShare_, Software. December 2022.
+FC Langbein, SM Shermer, Sean P O'Neil, EA Jonckheere. **MatSpinNet**. Version 1.1 _FigShare_, Software. December 2022.
 [[DOI:10.6084/m9.figshare.21856911]](https://doi.org/10.6084/m9.figshare.21856911)
 [[DEV:https://qyber.black/spinnet/code-matspinnet]](https://qyber.black/spinnet/code-matspinnet)
 [[MIRROR:https://github.com/qyber-black/Code-MatSpinNet]](https://github.com/qyber-black/Code-MatSpinNet)
