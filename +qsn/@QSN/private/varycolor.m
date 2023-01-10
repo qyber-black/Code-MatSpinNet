@@ -23,6 +23,9 @@ function ColorSet=varycolor(NumberOfPlots)
 
 %Created by Daniel Helmick 8/12/2008
 
+% SPDX-FileCopyrightText: Daniel Helmick 8/12/2008
+% SPDX-License-Identifier: BSD-2-Clause
+
 error(nargchk(1,1,nargin))%correct number of input arguements??
 error(nargoutchk(0, 1, nargout))%correct number of output arguements??
 

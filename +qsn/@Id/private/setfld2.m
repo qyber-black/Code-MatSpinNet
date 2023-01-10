@@ -29,6 +29,10 @@ function [ add, mul, sub ] = setfld2 ( dummy )
 %    Output, integer ADD(2,2), MUL(2,2), SUB(2,2), the addition, 
 %    multiplication, and subtraction tables, mod 2.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2003
+% SPDX-License-Identifier: LGPL-3.0-only
+
   q = 2;
 
   p = 2;

@@ -3,6 +3,10 @@ function example_sensitivity(C,Tm)
   %
   % Sensitivity to pertubations
 
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 SM Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   figure(3);
 
   T = 0:0.5:Tm+5;

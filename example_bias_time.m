@@ -2,7 +2,10 @@ function [best,results] = example_bias_time()
   % QSN package example
   %
   % Check best static control for each time and transition
-  %
+
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 SM Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
 
   % Construct a ring network
   N = 9;
@@ -16,7 +19,7 @@ function [best,results] = example_bias_time()
   if symm ~= 0
     if init < target
       K = floor((target - init) / 2);
-      for l = 0:K;
+      for l = 0:K
         M = init+l;
         C{M} = zeros(N,N);
         C{M}(M,M) = 1;

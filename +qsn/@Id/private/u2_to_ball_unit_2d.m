@@ -22,6 +22,10 @@ function x = u2_to_ball_unit_2d ( u )
 %
 %    Output, real X(2), the corresponding point inside the unit ball.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   r = sqrt ( u(1) );
   theta = 2.0 * pi * u(2);
 

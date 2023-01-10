@@ -76,6 +76,10 @@ function [ pc_deg, pc, v ] = calcv2 ( maxv, px_deg, px, add, mul, sub, b_deg, b 
 %    non-zero element of the field.  For the code, this means
 %    0 < NONZER < 2.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2003
+% SPDX-License-Identifier: LGPL-3.0-only
+
   arbit = 1;
   nonzer = 1;
 

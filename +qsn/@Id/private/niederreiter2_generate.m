@@ -27,6 +27,10 @@ function [ r, seed ] = niederreiter2_generate ( dim_num, n, seed )
 %
 %    Output, real R(DIM_NUM,N), the points.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2003
+% SPDX-License-Identifier: LGPL-3.0-only
+
   r = zeros(dim_num,n);
 
   for j = 1 : n

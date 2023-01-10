@@ -22,6 +22,10 @@ function value = halham_step_check ( step )
 %
 %    Output, logical VALUE, is true if STEP is legal.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   if ( step < 0 )
     fprintf ( 1, '\n' );
     fprintf ( 1, 'HALHAM_STEP_CHECK - Fatal error!\n' );

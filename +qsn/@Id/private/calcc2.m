@@ -62,6 +62,10 @@ function cj = calcc2 ( dimen )
 %    Local, integer NBITS, the number of bits (not counting the sign) in a
 %    fixed-point integer.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2003
+% SPDX-License-Identifier: LGPL-3.0-only
+
   maxdim = 20;
   maxe = 6;
   nbits = 31;

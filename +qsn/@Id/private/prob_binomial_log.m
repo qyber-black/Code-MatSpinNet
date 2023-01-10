@@ -23,6 +23,10 @@ function p = prob_binomial_log (s, X, D)
 %
 %  p_{11}(t) = 2/N abs(sum_k e^{-i lambda_k(d) t})
 
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019 Frank C Langbein <frank@langbein.org>, Cardiff University
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019 Sophie M Shermer <lw1660@gmail.com>, Swansea University
+% SPDX-License-Identifier: AGPL-3.0-or-later
+
 % Probabilities from H for ring on 1,1 trace (ONLY - FIXME)
 
 % FIXME: THIS IS NOT CORRECT

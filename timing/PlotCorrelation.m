@@ -1,4 +1,10 @@
 function PlotCorrelation(ring9,Bias)
+% function PlotCorrelation(ring9,Bias)
+
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 SM Shermer <lw1660@gmail.com>, Swansea University
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019 Edmond Jonckheere, University of Southern California
+% SPDX-License-Identifier: AGPL-3.0-or-later
 
 [err,fid18,tf]=PlotError_Fid_v_Approx(ring9,1,8,'NOFIT'), hold on
 [err,fid27,tf]=PlotError_Fid_v_Approx(ring9,2,7,'NOFIT')

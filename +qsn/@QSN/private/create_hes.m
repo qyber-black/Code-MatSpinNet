@@ -13,6 +13,9 @@ function create_hes (obj, in)
   %             in which order (0:k - from 1 to k <=N)
   %     in{3} - row vector of biases on the spins (optional)
 
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   % Check arguments
   if size(in,2) < 2 || size(in,2) > 3
     error ('Wrong number of parameters for higher-excitation spin network');
@@ -20,19 +23,19 @@ function create_hes (obj, in)
 
   % Coupling matrices
   J = in{1};
-  if ~isa(J,'cell'),      %%% if single matrix assume isotropic Heisenberg
+  if ~isa(J,'cell')      %%% if single matrix assume isotropic Heisenberg
     Jx = J;
     Jy = J;
     Jz = J;
-  elseif (length(J)==3),  %%% if 3 matrices then anisotripic Heisenberg
+  elseif (length(J)==3)  %%% if 3 matrices then anisotripic Heisenberg
     Jx = J{1};
     Jy = J{2};
     Jz = J{3};
-  elseif (length(J)==2),  %%% if 3 matrices assume XY interaction
+  elseif (length(J)==2)  %%% if 3 matrices assume XY interaction
     Jx = J{1};
     Jy = J{2};
     Jz = zeros(size(J{1}));
-  elseif (length(J)==1),  %%% assume isotropic Heisenberg
+  elseif (length(J)==1)  %%% assume isotropic Heisenberg
     Jx = J{1};
     Jy = Jx;
     Jz = Jx;

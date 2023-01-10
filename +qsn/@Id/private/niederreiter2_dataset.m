@@ -30,6 +30,10 @@ function r = niederreiter2_dataset ( m, n, skip )
 %
 %    John Burkardt
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2009
+% SPDX-License-Identifier: LGPL-3.0-only
+
   dim_max = 20;
 
   timestamp ( );

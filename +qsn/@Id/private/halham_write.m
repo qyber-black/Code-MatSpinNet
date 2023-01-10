@@ -45,6 +45,10 @@ function halham_write ( dim_num, n, step, seed, leap, base, r, file_out_name )
 %    Input, string FILE_OUT_NAME, the name of
 %    the output file.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   file_out_unit = fopen ( file_out_name, 'w' );
 
   if ( file_out_unit < 0 )

@@ -28,6 +28,10 @@ function value = r8_epsilon ( )
 %
 %    Output, real VALUE, the roundoff unit.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   value = eps;
 
   return

@@ -67,6 +67,10 @@ function out = ComputeTime(obj,ispin,jspin,sfact,runs)
 % of the single transition frequency.  The way the subconvergents are handled could
 % be improved.
 
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University\
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University\
+% SPDX-License-Identifier: AGPL-3.0-or-later
+
 if ~exist('sfact','var')
     sfact = [1 1e-10];
 end
@@ -100,7 +104,7 @@ par  = mod(diff(sss)/2,2);
 
 % select reference transition
 if sss(2)-sss(1)==0,
-     % first transition
+    % first transition
     omg0  = omg(1);
     theta = 2*omg(2:end)/omg0;
     parity= par(2:end);
@@ -112,7 +116,7 @@ end
 
 done = 0; k = 1;
 while ~done
-    x = [rand(1,length(theta))*sfact(1), sfact(2)];
+   x = [rand(1,length(theta))*sfact(1), sfact(2)];
    [p(:,k),q(k)] = sim_dio_approx(theta,x,1);
    % ensure q is positive
    p(:,k) = p(:,k)*sign(q(k));
@@ -139,13 +143,13 @@ if parity_ok % terminated with correct parity
 else
     p2 = []; q2 = [];
     for k = 1:runs
-	for l = k+1:runs
-	    parity_ok = all(mod(p(:,k)+p(:,l),2) == parity);
-    	    if parity_ok
-		p2 = p(:,k)+p(:,l);
-        	q2 = q(:,k)+q(:,l);
-	    end
-	end
+    for l = k+1:runs
+        parity_ok = all(mod(p(:,k)+p(:,l),2) == parity);
+            if parity_ok
+        p2 = p(:,k)+p(:,l);
+            q2 = q(:,k)+q(:,l);
+        end
+    end
     end
     out.p2 = p2;
     out.q2 = q2;
@@ -155,7 +159,6 @@ else
         out.err_dio_approx(k) = norm(p2(:,k)/q2(k) -theta);
         act_p = abs(expm(-i*out.tf(k)*obj.H)).^2;
         out.err_act(k) = (max_p(ispin,jspin) - act_p(ispin,jspin));
-	out.err_act_rel(k) = out.err_act(k)/max_p(ispin,jspin);
+    out.err_act_rel(k) = out.err_act(k)/max_p(ispin,jspin);
     end
 end
-

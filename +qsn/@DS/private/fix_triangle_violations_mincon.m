@@ -17,6 +17,10 @@ function DD = fix_triangle_violations_mincon (D, mode, prob, alg, show)
   %   DD    - Resulting distance matrix
   %
 
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   n = size(D,1);
 
   S = (n * n - n) / 2;

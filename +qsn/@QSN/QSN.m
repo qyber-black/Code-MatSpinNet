@@ -31,6 +31,11 @@ classdef (Sealed = true) QSN < handle
   %   N = obj . opt_attainable (ispin, jspin, x, s, shortest)
   %                               - Target function for finding attainability
   %                                 (rings only; for find_attainable)
+
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   properties (SetAccess = private)
     type   = 'undef';    % Type of quantum spin network
     N      = NaN;        % Number of spins in network

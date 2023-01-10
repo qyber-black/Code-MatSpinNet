@@ -1,4 +1,10 @@
 function [err,fid_err,tf] = PlotError_Fid_v_Approx(data,m,n,NOFIT)
+% function [err,fid_err,tf] = PlotError_Fid_v_Approx(data,m,n,NOFIT)
+
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 SM Shermer <lw1660@gmail.com>, Swansea University
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019 Edmond Jonckheere, University of Southern California
+% SPDX-License-Identifier: AGPL-3.0-or-later
 
 err = cell2mat(struct2cell(...
     structfun(@(y)max(abs(y.err)), data,'UniformOutput',false))');

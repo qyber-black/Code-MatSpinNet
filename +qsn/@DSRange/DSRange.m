@@ -18,6 +18,11 @@ classdef (Sealed = true) DSRange < handle
   %   obj . plot_triangle_inequality_violation (l) - Plot triangle inequality violations
   %   x = obj . exec (func)                        - Execute func on all objects
   %
+
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   properties (SetAccess = private)
     R    = NaN;      % Ranges
     T    = NaN;      % Names

@@ -34,7 +34,11 @@ classdef (Sealed = true) DS < handle
   %
   %   obj . plot_graph (type, scale, violations) 
   %                                        - Plot distances as graph
-  %
+
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   properties (SetAccess = private)
     N    = NaN;        % Number of nodes
     D    = NaN;        % Distance matrix

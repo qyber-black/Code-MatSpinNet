@@ -20,6 +20,10 @@ function dim_num = hammersley_dim_num_get ( )
 %
 %    Output, integer DIM_NUM, the current value of the dimension.   
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   global hammersley_DIM_NUM
 
   dim_num = hammersley_DIM_NUM;

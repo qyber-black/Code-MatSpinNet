@@ -20,6 +20,10 @@ function step = hammersley_step_get ( )
 %
 %    Output, integer STEP, the step of the leaped Hammersley subsequence.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   global hammersley_STEP
 
   step = hammersley_STEP;

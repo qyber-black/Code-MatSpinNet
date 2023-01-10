@@ -70,6 +70,10 @@ function r = i4_to_hammersley ( dim_num, step, seed, leap, base )
 %    Output, real R(DIM_NUM), the STEP-th element of the leaped 
 %    Hammersley subsequence.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   fiddle = 0.0;
   dim_num = floor ( dim_num );
   step = floor ( step );

@@ -34,6 +34,10 @@ function i4vec_transpose_print ( n, a, title )
 %    Input, string TITLE, a title to be printed first.
 %    TITLE may be blank.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   if ( 0 < s_len_trim ( title ) )
 
     title_len = length ( title );

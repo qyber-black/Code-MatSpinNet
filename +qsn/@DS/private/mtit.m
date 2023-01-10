@@ -61,6 +61,9 @@
 % us  06-Apr-2003   / TMW
 % us  13-Nov-2009 17:38:17
 
+% SPDX-FileCopyrightText: Copyright (c) 2009, urs (us) schwarz
+% SPDX-License-Identifier: BSD-2-Clause
+
 %-------------------------------------------------------------------------------
 function  par=mtit(varargin)
 

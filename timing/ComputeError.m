@@ -1,4 +1,10 @@
 function err_act = ComputeError(obj,ispin,jspin,t,TITLE)
+% function err_act = ComputeError(obj,ispin,jspin,t,TITLE)
+
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 SM Shermer <lw1660@gmail.com>, Swansea University
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019 Edmond Jonckheere, University of Southern California
+% SPDX-License-Identifier: AGPL-3.0-or-later
 
 N = obj.N;
 % compute eigendecomposition

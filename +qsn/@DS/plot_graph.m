@@ -6,7 +6,10 @@ function plot_graph(obj, type, scale,violations)
   %   type        - Mode of graph construction: 'fdp' or 'neato'
   %   scale       - Graph scale
   %   violations  - Only print triangle violations
-  %
+
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University
+  % SPDX-License-Identifier: AGPL-3.0-or-later
 
   S = obj.D >= obj.eps;
   D = (obj.D * S + 1) * scale;

@@ -23,6 +23,9 @@ function x = u2_to_sphere_unit_3d ( u )
 %    Output, real X(3), the corresponding point on the unit sphere.
 %
 
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
 %
 %  Pick a uniformly random VDOT, which must be between -1 and 1.
 %  This represents the dot product of the random vector with the Z unit vector.

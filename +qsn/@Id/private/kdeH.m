@@ -11,6 +11,9 @@ function KDE = kdeH (S, D, Range, H_N, varargin);
 %
 %    KDE     - Hamiltonian KDE
 
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019 Frank C Langbein <frank@langbein.org>, Cardiff University
+% SPDX-License-Identifier: AGPL-3.0-or-later
+
 % Setup sampling
 persistent Base;
 if isempty(Base)

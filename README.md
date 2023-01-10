@@ -1,5 +1,11 @@
-# MatSpinNet V1.0
-x
+# MatSpinNet V1.0.1
+
+> SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University\
+> SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University\
+> SPDX-FileCopyrightText: Copyright (C) 2011-2019 Edmond Jonckheere, University of Southern California\
+> SPDX-FileCopyrightText: Copyright (C) 2022 Sean P O'Neil, US Army\
+> SPDX-License-Identifier: AGPL-3.0-or-later
+
 Matlab code for quantum spin-1/2 networks. It provides code to analyse
 the geometry of such networks, and some basic quantum control and
 characterisation code. Details are described in these papers:
@@ -78,6 +84,7 @@ The mirrors are only for convenience, accessibility and backup.
 * [Frank C Langbein](https://qyber.black/xis10z), [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science), [Cardiff University](https://www.cardiff.ac.uk/); [langbein.org](https://langbein.org/)
 * [Sophie M Shermer](https://qyber.black/lw1660), [Physics](https://www.swansea.ac.uk/physics), [Swansea University](https://www.swansea.ac.uk/)
 * [Edmond Jonckheere](https://qyber.black/edmond), [Ming Hsieh Department of Electrical and Computer Engineering](https://minghsiehece.usc.edu/), [University of Southern California](http://www.usc.edu/)
+* [Sean P O'Neil](https://qyber.black/sean), [Ming Hsieh Department of Electrical and Computer Engineering](https://minghsiehece.usc.edu/), [University of Southern California](http://www.usc.edu/) and US Army.
 
 ## Contact
 
@@ -85,27 +92,7 @@ For any general enquiries relating to this project, [send an e-mail](mailto:gitl
 
 ## Citation
 
-FC Langbein, SM Shermer, EA Jonckheere. **MatSpinNet**. Version 1.0. _FigShare_, Software. November 2019.
-[[DOI:10.6084/m9.figshare.10315814.v1]](https://doi.org/10.6084/m9.figshare.10315814.v1)
+FC Langbein, SM Shermer, Sean P O'Neil, EA Jonckheere. **MatSpinNet**. Version 1.0.1 _FigShare_, Software. December 2022.
+[[DOI:10.6084/m9.figshare.10315814]](https://doi.org/10.6084/m9.figshare.10315814)
 [[DEV:https://qyber.black/spinnet/code-matspinnet]](https://qyber.black/spinnet/code-matspinnet)
 [[MIRROR:https://github.com/qyber-black/Code-MatSpinNet]](https://github.com/qyber-black/Code-MatSpinNet)
-
-## License - AGPL v3.0
-
-Copyright (C) 2011-2019, 2022
-Frank C Langbein, Cardiff University;
-Sophie G Shermer, Swansea University;
-Edmond Jonckheere, USC.
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as
-published by the Free Software Foundation, either version 3 of the
-License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.

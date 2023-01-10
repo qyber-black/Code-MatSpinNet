@@ -83,6 +83,10 @@ function r = hammersley ( )
 %    Output, real R(1:DIM_NUM), the SEED-th element of the Hammersley sequence
 %    for base BASE.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   dim_num = hammersley_dim_num_get ( );
   step = hammersley_step_get ( );
   seed = hammersley_seed_get ( );

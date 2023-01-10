@@ -1,5 +1,4 @@
 function tf = PlotScaling(err_v_time,err_prob)
-
 % function PlotScaling(err_v_time, err_prob) determines the minimum  
 % time required to make the error < err_prob and plots tf vs err_prob 
 % in a loglog plot
@@ -10,6 +9,11 @@ function tf = PlotScaling(err_v_time,err_prob)
 % 
 % output: tf (vector) or structure with same fields as err_v_time
 %         containing the minimum times
+
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 SM Shermer <lw1660@gmail.com>, Swansea University
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019 Edmond Jonckheere, University of Southern California
+% SPDX-License-Identifier: AGPL-3.0-or-later
 
 if ~isfield(err_v_time,'t')
     error('time vector must be specified')

@@ -55,6 +55,10 @@ function [ quasi, seed_new ] = niederreiter2 ( dim, seed )
 %    N is implicit, and the NR_nextq are integers.  To obtain
 %    the values of XI(N), multiply by RECIP.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2003
+% SPDX-License-Identifier: LGPL-3.0-only
+
   global NR_cj;
   global NR_dim;
   global NR_nextq;

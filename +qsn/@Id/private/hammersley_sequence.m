@@ -85,6 +85,10 @@ function r = hammersley_sequence ( n )
 %    Output, real R(DIM_NUM,N), the SEED-th through SEED+N-1th elements of 
 %    the Hammersley sequence.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   dim_num = hammersley_dim_num_get ( );
   step = hammersley_step_get ( );
   seed = hammersley_seed_get ( );

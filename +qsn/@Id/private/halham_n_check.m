@@ -22,6 +22,10 @@ function value = halham_n_check ( n )
 %
 %    Output, logical VALUE, is true if N is legal.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   if ( n < 1 )
     fprintf ( 1, '\n' );
     fprintf ( 1, 'HALHAM_N_CHECK - Fatal error!\n' );

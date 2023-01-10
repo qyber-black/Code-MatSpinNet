@@ -28,6 +28,10 @@ function value = arc_cosine ( c )
 %
 %    Output, real ARC_COSINE, an angle whose cosine is C.
 %
+
+% SPDX-FileCopyrightText: John Burkardt, 2004
+% SPDX-License-Identifier: LGPL-3.0-only
+
   c = max ( c, -1.0 );
   c = min ( c, +1.0 );
 

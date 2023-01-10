@@ -21,6 +21,8 @@ function [I,L,N] = BellmanFord(w,s)
   % N is the next node; specifically, N(v) is the next node from source
   % node s in the minimum path from source node s to destination node v.
   %
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019 Edmond Jonckheere, University of Southern California
+  % SPDX-License-Identifier: AGPL-3.0-or-later
 
   % Initialization
   Numnode = size(w,1);

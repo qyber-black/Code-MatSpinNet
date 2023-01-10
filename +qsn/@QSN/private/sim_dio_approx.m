@@ -40,27 +40,26 @@ function [p,q,short] = sim_dio_approx (theta,x,shortest)
   % pp.16-34, 2013.
   %
   %*************************************************************************
-  % WARNING: This paper is sloppily written.
-  % While it is fundamentally correct, the way (p,q) is derived from the
-  % short vector of the reduced basis of the lattice is wrong.
-  % The authors forgot several scalings.
-  % I had to rederive (p,q) my own way.
+  % WARNING: While the paper is fundamentally correct, the way (p,q) is derived from the
+  % short vector of the reduced basis of the lattice is missing several scalings.
   %*************************************************************************
   %
-  % The above paper uses a scalar parameter x that should go to infinity for
+  % The paper uses a scalar parameter x that should go to infinity for
   % accrued accuracy. The significant departure from the paper is that here
   % we make the scaling a diagonal matrix X, the diagonal matrix expansion of
-  % the d-dimensional vector x on input.
-  % In addition, in the above paper, B(d+1,d+1)=1. Here we add the extra
-  % parameter s and set B(d+1,d+1)=s. Thus if we set x=ones(d), we recover
-  % the original version (attainability.m).
+  % the d-dimensional vector x on input.  In addition, in the above paper, 
+  % B(d+1,d+1)=1. Here we add the extra parameter s and set B(d+1,d+1)=s. Thus 
+  % if we set x=ones(d), we recover the original version (attainability.m).
   %
   % Also on return, "short" is a short vector in the lattice
   %
   % B_s(\theta)\mathbb{Z}^{d+1}
   %
-  % This vector somehow provides an idea of the approximation error.
-  %
+  % This vector provides an idea of the approximation error.
+  
+  % SPDX-FileCopyrightText: Copyright (C) 2011-2019 Edmond Jonckheere, University of Southern California
+  % SPDX-License-Identifier: AGPL-3.0-or-later
+
   if nargin < 3
     shortest = 0;
   end

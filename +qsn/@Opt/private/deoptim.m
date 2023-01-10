@@ -1,5 +1,4 @@
 function [x,fitHist] = deoptim(objective,DIM,options)
-
 % objective = objective function to be evaluated
 % DIM  = number of control parameters
 % options:
@@ -8,6 +7,10 @@ function [x,fitHist] = deoptim(objective,DIM,options)
 %   mutation       = mutation parameter (see line 42)
 %   crossover      = crossover parameter (see line 52)
 %   maxGen         = max number of generations
+
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Frank C Langbein <frank@langbein.org>, Cardiff University
+% SPDX-FileCopyrightText: Copyright (C) 2011-2019, 2022 Sophie M Shermer <lw1660@gmail.com>, Swansea University
+% SPDX-License-Identifier: AGPL-3.0-or-later
 
 NPDIM = options.population;
 bounds = [options.lb; options.ub];
